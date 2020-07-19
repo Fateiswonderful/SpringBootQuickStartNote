@@ -1,0 +1,13 @@
+#配置运行application-dev.yml的配置文件
+spring:
+  profiles:
+    active: dev
+
+picPath: D://images
+
+aliyun:
+  xxxx: rrrrrrrr
+  yyyy: yyyyyyyy
+  aaaa: aaaaaaaa
+  bbbb: bbbbbbbb
+  cccc: cccccccc

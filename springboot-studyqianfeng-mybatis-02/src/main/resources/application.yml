@@ -1,0 +1,16 @@
+#配置数据库连接参数
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///information_schema?serverTimezone=UTC
+      username: root
+      password: 990412
+      type: com.alibaba.druid.pool.DruidDataSource
+
+
+#Mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.deng.springboot.data.entity
+  configuration:
+    map-underscore-to-camel-case: true
